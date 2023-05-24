@@ -3,7 +3,7 @@ import About from "./About";
 import {ImGithub} from "react-icons/im";
 import {ImFacebook2} from "react-icons/im";
 import {ImLinkedin} from "react-icons/im";
-import { IoIosArrowDown} from "react-icons/io";
+
 import "../Style/PageHome.css";
 import { MaquinaDeEscrever } from "./efeitoescrita";
 import Aos from "aos";
