@@ -1,0 +1,16 @@
+#spin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    border: 0.5vw double rgb(29, 201, 23);
+   
+
+}
+
+#texto{
+    font-size: 0.2em;
+}

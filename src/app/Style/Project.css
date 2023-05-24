@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.projetos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.code h1{
+    padding-block: 10%;
+    padding-bottom: 7%;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(3, 246, 3);
+    letter-spacing: 0.3em;
+    
+
+}
+
+.code{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

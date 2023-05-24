@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.skills{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-block: 2%;
+ 
+    flex-wrap: wrap;
+}
+
+.spinners{
+    flex-wrap: wrap;
+    color:rgb(0, 255, 17); ;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:5% ;
+  
+    
+  
+
+
+}
+
+.skills h1{
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(6, 244, 6);
+   letter-spacing: 0.3em;
+}
+
+#spin{
+    margin-top: 2%;
+    box-shadow: 0 0 0.8vw inset rgb(0, 255, 17); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 4vw;
+    animation: piscar 2s ease infinite;
+
+}
+
+@keyframes piscar {
+    
+    0%,100%{
+        box-shadow: 0 0 1vw inset rgb(0, 255, 17); 
+    }
+    50%{
+        box-shadow: 0 0 0.8vw inset rgb(0, 0, 0); 
+    }
+    
+}
+

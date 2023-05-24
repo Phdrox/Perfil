@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    list-style: none;
+  
+    text-decoration: none
+}
+
+.inicial{
+    height: 100%;
+    width: 100%;
+}
+
+.home{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30%;
+}
+
+#image{
+    border-radius: 0 10vw 10vw 0;
+}
+
+
+.infor{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#name{
+    margin-top: 15%;
+    font-size:5em;
+    color: #08fe00;
+    letter-spacing: 0.3em;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+#name::after{
+    content:"";
+    border-right:0.01em solid #08fe00;
+     animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+
+    0%,100%{
+     opacity: 1;
+    }
+
+    50%{
+      opacity: 0;
+    }
+ 
+    
+}
+
+
+.icons{
+    
+    color: #efefef;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 180%;
+    transition: color  0.5s
+}
+
+.icons li{
+    cursor: pointer;
+}
+.icons li a{
+    transition: all  0.3s
+}
+
+.icons li a:hover{
+    color: #08fe00;
+    font-size: 110%;
+}
+
+
+#scroll{
+    margin-bottom:1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size:170%;
+    animation: scroll 2s ease infinite;
+    color:#08fe00;
+     position:absolute;
+    bottom: 5%;
+
+}
+
+#scroll1{
+cursor: pointer;
+}
+
+@keyframes scroll {
+
+    0%,100%{
+        bottom: 5%;
+    }
+
+    50%{
+        bottom: 10%;
+    }
+    
+}
